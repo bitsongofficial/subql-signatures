@@ -1,0 +1,7 @@
+type Signature @entity {
+  id: ID!
+  height: BigInt!
+  signature: String
+  validator: String
+  timestamp: Date!
+}
